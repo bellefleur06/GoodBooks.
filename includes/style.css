@@ -1,0 +1,179 @@
+/*Font*/
+@import url(//fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap);
+
+/*Reset and Helpers*/
+body {
+  font-family: "Roboto", Sans-Serif;
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900 !important;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.4s ease;
+  font-weight: 800;
+  color: #070c2a;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding: 80px 0;
+  z-index: 2;
+  position: relative;
+}
+
+.bg-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(193, 77, 134, 0.7), rgba(161, 75, 146, 0.7));
+  z-index: -1;
+}
+
+.btn {
+  padding: 14px 22px;
+  transition: all 0.3s ease;
+}
+
+.btn-main {
+  background: linear-gradient(to left, #c14d86, #a14b92);
+  border-radius: 100px;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn-main:hover {
+  color: #fff;
+  transform: translateY(-4px);
+}
+
+.section-intro {
+  margin-bottom: 40px;
+}
+
+.section-intro .divider {
+  width: 70px;
+  height: 4px;
+  background: linear-gradient(to left, #c14d86, #a14b92);
+  margin: 16px auto;
+}
+
+/*Navbar*/
+.logo-text {
+  background: -webkit-linear-gradient(#c14d86, #a14b92);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show .nav-link {
+  background: -webkit-linear-gradient(#c14d86, #a14b92);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*Discover*/
+.discover-book .book-img {
+  position: relative;
+}
+
+.discover-book .book-img .icon {
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(to left, #c14d86, #a14b92);
+  color: #fff;
+  border-radius: 100px;
+}
+
+.discover-book .book-img .icon i {
+  font-size: 36px;
+}
+
+/*About*/
+.btn-play {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(to left, #c14d86, #a14b92);
+  border-radius: 100px;
+  color: #fff;
+}
+
+/*Books*/
+.books i {
+  background: -webkit-linear-gradient(#c14d86, #a14b92);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 54px;
+}
+
+/*Reviews*/
+.reviews .users {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  padding-bottom: 18px;
+}
+
+.reviews .users img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+}
+
+.reviews .stars {
+  color: orange;
+}
+
+/*Contact*/
+form .form-control {
+  border-radius: 0;
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+form input .form-control {
+  height: 54px;
+}
+
+form .form-control::placeholder {
+  color: #fff;
+}
+
+form .form-control:focus {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+/*Footer*/
+footer {
+  background: linear-gradient(to left, #c14d86, #a14b92);
+  color: #fff;
+}
+
+footer i {
+  color: #fff;
+}
